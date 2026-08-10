@@ -1,8 +1,0 @@
-src/index.html -> assets/lifestyle.jpg
-src/index.html -> downloads/ИНВЕСТИЦИОННАЯ_ПРЕЗЕНТАЦИЯ_STIMUL_FOOD.pdf
-src/index.html -> downloads/БИЗНЕС_ПЛАН_STIMUL_FOOD.pdf
-src/index.html -> downloads/ФИНАНСОВАЯ_МОДЕЛЬ_STIMUL_FOOD.xlsx
-dist/index.html -> assets/lifestyle.jpg
-dist/index.html -> downloads/ИНВЕСТИЦИОННАЯ_ПРЕЗЕНТАЦИЯ_STIMUL_FOOD.pdf
-dist/index.html -> downloads/БИЗНЕС_ПЛАН_STIMUL_FOOD.pdf
-dist/index.html -> downloads/ФИНАНСОВАЯ_МОДЕЛЬ_STIMUL_FOOD.xlsx
