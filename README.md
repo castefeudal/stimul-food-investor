@@ -24,9 +24,9 @@ python -m http.server 8001
 
 ## Financial source of truth
 
-The dashboard snapshot reflects the supplied financial model main scenario: average price 44.35 BYN; stable food 13.35; kitchen 5.50; packaging 3.20; delivery 2.80; other variable 1.50; waste 3% of food; payment fee 1.8%; tax scenario 6%; fixed mature costs 12,000 BYN/month; 26 working days; stable contribution 14.1402 BYN and 31.88%; break-even without marketing ~32.65 ration-days/day. Interactive edits are scenarios, not forecasts.
+The V20 dashboard uses the six-program weighted 5-day mix: ASP 47.1614 BYN; stable weighted food 14.67432; kitchen 5.50; packaging 3.20; delivery 2.80; other variable 1.50; waste 3% of food; payment fee 1.8%; tax scenario 6%; fixed mature costs 12,000 BYN/month; 26 working days; stable contribution 15.3683 BYN and 32.59%; break-even without marketing ~30.03 ration-days/day. Interactive edits are scenarios, not forecasts.
 
-## Production TODO
+## Activation boundary
 
 - Confirm kitchen, packaging and supplier quotes.
 - Confirm tax/legal treatment with accountant/legal counsel.
