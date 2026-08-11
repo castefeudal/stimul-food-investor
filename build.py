@@ -15,6 +15,10 @@ if parts_dir.exists():
                 raise SystemExit('Unsafe source archive member')
         tf.extractall(root)
     print('Restored sanitized investor source archive')
+overrides=root/'public-source'/'overrides'
+if overrides.exists():
+    shutil.copytree(overrides,src,dirs_exist_ok=True)
+    print('Applied V20 visual and language overrides')
 private_menu=root/'private-data'/'menu.internal.json'
 if private_menu.exists() and (root/'tools'/'generate_public_data.py').exists():
     subprocess.run([sys.executable,str(root/'tools'/'generate_public_data.py')],check=True)
